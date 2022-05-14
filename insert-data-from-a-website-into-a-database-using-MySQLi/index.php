@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<form>
+<form action="includes/signup.inc.php" method="POST">
     <input type="text" name="first" placeholder="Firstname">
     <br>
     <input type="text" name="last" placeholder="Lastname">
@@ -19,6 +19,8 @@
     <input type="text" name="uid" placeholder="Username">
     <br>
     <input type="password" name="pwd" placeholder="Firstname">
+    <br>
+    <button type="submit">sign up</button>
 </form>
 
 <?php
